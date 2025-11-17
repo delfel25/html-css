@@ -20,7 +20,7 @@ a {
 
 .wrapper {
     background: #E21C34;
-    background: linear-gradient(172deg, rgba(226, 28, 52, 1) 28%, rgba(80, 11, 40, 1) 62%);
+    background: linear-gradient(172deg, rgba(226, 28, 52, 1) 59%, rgba(80, 11, 40, 1) 100%);
     min-height: 100vh;
     width: 100%;
 }
@@ -125,4 +125,57 @@ header nav ul li.btn a:hover {
 .hero--info .btn:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+/*games*/
+
+.trending {
+    padding-top: 50px;
+}
+
+
+.trending h3 {
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.trending .see-all {
+    color: #fff;
+    background: #25211d;
+    border-radius: 5px;
+    padding: 12px 23px;
+    float: right;
+    display: block;
+    transition: all 500ms ease;
+}
+
+.trending .see-all:hover {
+    transform: scale(1.1);
+}
+
+.trending .games {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1px 0;
+}
+
+.trending .games span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.trending .games span img {
+    position: relative;
+    top: 5px;
+    margin-right: 7px;
+}
+
+.big-text {
+    padding: 50px 0;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    width: 800px;
 }
